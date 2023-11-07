@@ -26,6 +26,8 @@ Execute Django admin and create 10 Football players
 ```
 
 
+
+
 from django.contrib import admin
 from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)
@@ -50,7 +52,7 @@ class EmployeeAdmin(admin.ModelAdmin):
 ```
 
 ## OUTPUT
-![Screenshot 2023-10-27 182733](https://github.com/Nachiyarr/ORM/assets/113497340/02dfad95-21d3-4867-9a86-b11314e21905)
+![image](https://github.com/Nachiyarr/ORM/assets/113497340/39ed71fd-f208-4b0a-bd1a-16b4caf0dc49)
 
 
 
